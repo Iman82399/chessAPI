@@ -1,3 +1,5 @@
+// const APIurl='https://www.chess.com/news/view/published-data-api'
+
 function getByPlayerName(playerName){
     fetch(`https://api.chess.com/pub/player/${playerName}`).then(response=>{
         return response.json()
